@@ -1571,24 +1571,7 @@ b = {
 				end
 				for i, ab in pairs(U:GetChildren()) do
 					if ab:IsA("Frame") and ab.Name == "Page" then
-						local x =
-								b[1]().tw(
-									{
-							v = ab.CanvasGroup,
-							t = 0.3,
-							s = "Linear",
-							d = "Out",
-							g = {
-								GroupTransparency = 1
-							}
-						}
-								)
-						x:Play()
-						x.Completed:Connect(
-								function()
-							ab.Visible = false
-						end
-							)
+						ab.Visible = false
 					end
 				end
 				aa()

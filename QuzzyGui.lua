@@ -2047,7 +2047,7 @@ b = {
 				local function aB()
 					b[1]().tw({
 						v = av,
-						t = 0.15,
+						t = 0.1,
 						s = "Exponential",
 						d = "InOut",
 						g = {
@@ -2058,7 +2058,7 @@ b = {
 					)
 					b[1]().tw({
 						v = av.UIStroke,
-						t = 0.15,
+						t = 0.1,
 						s = "Exponential",
 						d = "InOut",
 						g = {

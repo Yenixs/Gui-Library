@@ -1503,15 +1503,6 @@ b = {
 			}
 				)
 			local function aa()
-				b[1]().tw({
-					v = a8,
-					t = 0.3,
-					s = "Linear",
-					d = "InOut",
-					g = {
-						BackgroundTransparency = 0
-					}
-				}):Play()
 				b[1]().tw(
 					{
 					v = a8.TextLabel,
@@ -1527,17 +1518,6 @@ b = {
 					.3,
 					function()
 					a9.Visible = true
-					b[1]().tw({
-						v = a9.CanvasGroup,
-						t = 0.3,
-						s = "Linear",
-						d = "In",
-						g = {
-							GroupTransparency = 0
-						}
-					}):Play(
-
-						)
 				end
 				)
 			end

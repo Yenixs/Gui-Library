@@ -1545,17 +1545,6 @@ b = {
 				function()
 				for i, ab in pairs(P:GetChildren()) do
 					if ab:IsA("Frame") then
-						b[1]().tw({
-							v = ab,
-							t = 0.3,
-							s = "Linear",
-							d = "Out",
-							g = {
-								BackgroundTransparency = 1
-							}
-						}):Play(
-
-							)
 						b[1]().tw(
 								{
 							v = ab.TextLabel,
